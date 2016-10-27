@@ -1,0 +1,306 @@
+
+/* - portlets.css - */
+@media screen {
+/*
+** Plone style sheet - Portlets
+**
+** Style sheet documentation can be found at http://plone.org/documentation
+**
+** You should preferrably use ploneCustom.css to add your own CSS classes and to
+** customize your portal, as these are the base fundaments of Plone, and will
+** change and be refined in newer versions. Keeping your changes in
+** ploneCustom.css will make it easier to upgrade.
+**
+** Feel free to use whole or parts of this for your own designs, but give credit
+** where credit is due.
+**
+*/
+
+/*  (do not remove this :) */
+/*  (not this either :) */
+
+/* The new portlet CSS - these will be switched to non-qualified classes
+   (ie. .portlet, not dl.portlet) once the old portlet layout is removed in
+   Plone 2.5. ~limi */
+
+/* Main portlet elements */
+
+dl.portlet {
+    margin: 1px 0 1em 0;
+    border-bottom: 1px solid #436EAE;
+    background-color: White;
+}
+
+dl.portlet a {
+    text-decoration: none;
+}
+
+.portlet a.tile {
+    display: block;
+}
+
+
+/* XXX: The two below rules should really be in the rule above, but that makes the items grow/shrink on :hover (navtree) - need to investigate how to make it not do that. ~limi, Dec 2005 */
+dd.portletItem a,
+dd.portletFooter a {
+    border-bottom: none;
+}
+dd.portletItem a:visited,
+dd.portletFooter a:visited {
+    color: #436976;
+}
+
+.portletHeader {
+background-color: #eeeeee;
+border: 1px solid #dadada;
+padding: 5px;
+font-weight: bold;
+line-height: 8px;
+}
+
+.portletHeader a {
+
+font-weight: bold;
+padding: 5px;
+}
+
+.portletItem {
+    margin: 0;
+border-left: 1px solid #dadada;
+border-right: 1px solid #dadada;
+background-color: #eef6fd;
+}
+
+.portletItemDetails {
+    text-align: right;
+    display: block;
+border-bottom: 2px solid #ffffff;
+}
+
+dd.portletFooter {
+    margin: 0;
+background-color: #eeeeee;
+border: 1px solid #dadada;
+}
+
+
+/* Elements that enable layout with rounded corners */
+
+.portletTopLeft {}
+.portletTopRight {}
+.portletBottomLeft {}
+.portletBottomRight {}
+
+
+
+/* New navtree styles */
+
+
+.navTreeItem.visualNoMarker {
+padding-left:10px;}
+
+.portletNavigationTree {
+
+    margin: 0 0 0 0.75em; 
+    padding: 0; 
+    list-style: none; 
+    list-style-image: none; 
+    line-height: 1em;
+}
+
+
+
+.navTree {
+    list-style: none; 
+    list-style-image: none; 
+    margin-top: 1px;
+}
+
+.navTreeLocal {
+    margin: 0 0 0 0.75em;
+}
+
+.navTree li {
+    margin-bottom: 1px;
+}
+
+.navTreeItem {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.navTreeItem a,
+dd.portletItem .navTreeItem a {
+    border-bottom: 1px solid #ffffff;
+    display: block;
+    text-decoration: none;
+    padding-top: 0.2em;
+    padding-bottom: 0.25em;
+}
+
+.navTreeItem a:hover,
+dd.portletItem .navTreeItem a:hover {
+    background-color: #94ACD0;
+    color: #436976;
+    border-bottom: 1px solid #ffffff;
+}
+
+.navTreeCurrentItem {
+    background-color: #94ACD0;
+    color: #436976;
+
+}
+
+li.navTreeCurrentItem {
+    display: block;
+    padding: 0 0 0 1px;
+    margin: 0 0 2px -1px;
+}
+
+li.navTreeCurrentItem a,
+li.navTreeCurrentItem a:hover {
+    display: block;
+    border: 1px solid #94ACD0;
+    min-height: 1.6em;
+    line-height: 1.6em;
+    height: auto;
+}
+
+.visualIconPadding,
+.actionMenu .actionMenuContent .visualIconPadding {
+    padding-left: 0.5em;
+    margin-bottom: 1px;
+    min-height: 1.6em;
+    height: auto;
+    line-height: 1.6em;
+}
+
+/* Another workaround for broken Internet Explorer */
+
+* html li.navTreeCurrentItem a,
+* html li.navTreeCurrentItem a:hover {
+    height: 1.6em;
+}
+
+/* IE workaround to make sure the element is selectable in its full width */
+* html .visualIconPadding {
+    height: 1.6em;
+}
+
+
+
+
+
+
+
+.navTreeLevel0 { margin: 0px;}
+.navTreeLevel1 { margin-left: 0.75em;}
+.navTreeLevel2 { margin-left: 0.75em;}
+.navTreeLevel3 { margin-left: 0.75em; }
+.navTreeLevel4 { margin-left: 0.75em; }
+.navTreeLevel5 { margin-left: 0.75em; }
+
+
+
+
+
+
+
+
+
+/*
+** Calendar elements - used in the calendar rendering
+*/
+
+.dayPopup {
+    background-color: #ffffe1;
+    border: 1px solid Black;
+    padding: 0.2em;
+    position: absolute;
+    visibility: hidden;
+    width: 12em;
+    z-index: 2;
+}
+.date {
+    font-weight: bold;
+}
+
+.ploneCalendar {
+    border: 1px solid #436EAE;
+    margin: 1px 0 1em 0;
+    border-collapse: collapse;
+    border-spacing:0;
+    width: 100%;
+}
+.ploneCalendar a {
+    text-decoration: none;
+}
+.ploneCalendar a:hover {
+    text-decoration: none;
+}
+.ploneCalendar th {
+    background-color: #94ACD0;
+    font-weight: normal;
+    text-align: center;
+    line-height: 1.6em;
+}
+.ploneCalendar td {
+    background-color: transparent;
+    width: 14%;
+    text-align: right;
+    padding: 2px;
+}
+.ploneCalendar .weekdays td {
+    background-color: #94ACD0;
+    border: 1px solid #436EAE;
+    border-style: solid none;
+    text-align: center;
+    padding: 2px;
+}
+.ploneCalendar .event {
+    background-color: #94ACD0;
+    font-weight: bold;
+}
+.ploneCalendar .todayevent {
+    background-color: #94ACD0;
+    border: 2px solid #ffa500;
+    font-weight: bold;
+}
+.ploneCalendar .todaynoevent {
+    border-collapse: collapse;
+    border: 2px solid #ffa500;
+}
+.ploneCalendar #calendar-previous {
+    background-image: url(../../arrowLeft.gif);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.ploneCalendar #calendar-next {
+    background-image: url(../../arrowRight.gif);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.ploneCalendar #calendar-previous a,
+.ploneCalendar #calendar-next a {
+    display: block;
+    text-decoration: none;
+    overflow: hidden;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    padding-top: 9px;
+    height: 0px !important;
+    height /**/: 9px;
+    cursor: pointer;
+}
+.ploneCalendar #calendar-next a {
+    padding-top: 9px;
+    height: 0px !important;
+    height /**/: 9px;
+}
+
+
+/*  */
+}
+

@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+         xmlns="http://purl.org/rss/1.0/">
+
+
+
+
+    
+
+
+
+<channel rdf:about="http://provocativequestions.nci.nih.gov/search_rss">
+  <title>Provocative Questions</title>
+  <link>http://provocativequestions.nci.nih.gov</link>
+  
+  <description>
+    
+            These are the search results for the query, showing results 61 to 75.
+        
+  </description>
+  
+  
+  
+  
+  <image rdf:resource="http://provocativequestions.nci.nih.gov/logo.jpg"/>
+
+  <items>
+    <rdf:Seq>
+        
+            <rdf:li rdf:resource="http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1296850646/comment_1302127332"/>
+        
+        
+            <rdf:li rdf:resource="http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/provocative-questions/why-are-some-disseminated-cancers-cured-by-chemotherapy-alone-1/comment_1301345966"/>
+        
+        
+            <rdf:li rdf:resource="http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1301530459"/>
+        
+        
+            <rdf:li rdf:resource="http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1296831143/comment_1301092897"/>
+        
+        
+            <rdf:li rdf:resource="http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1300465637"/>
+        
+        
+            <rdf:li rdf:resource="http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1300466005"/>
+        
+        
+            <rdf:li rdf:resource="http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1297533065/comment_1300139951"/>
+        
+        
+            <rdf:li rdf:resource="http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1299582960"/>
+        
+        
+            <rdf:li rdf:resource="http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1299539367"/>
+        
+        
+            <rdf:li rdf:resource="http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1296761243/comment_1299518297"/>
+        
+        
+            <rdf:li rdf:resource="http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1299508744"/>
+        
+        
+            <rdf:li rdf:resource="http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1299509784"/>
+        
+        
+            <rdf:li rdf:resource="http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1299510834"/>
+        
+        
+            <rdf:li rdf:resource="http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1299173164"/>
+        
+        
+            <rdf:li rdf:resource="http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1299172807"/>
+        
+    </rdf:Seq>
+  </items>
+
+</channel>
+
+    <item rdf:about="http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1296850646/comment_1302127332">        <title>Divi, Rao</title>        <link>http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1296850646/comment_1302127332</link>        <description></description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>siteadmin</dc:creator>        <dc:rights></dc:rights>                <dc:date>2011-04-11T14:34:49Z</dc:date>        <dc:type>comment</dc:type>    </item>
+    <item rdf:about="http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/provocative-questions/why-are-some-disseminated-cancers-cured-by-chemotherapy-alone-1/comment_1301345966">        <title>Prehn, Richmond</title>        <link>http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/provocative-questions/why-are-some-disseminated-cancers-cured-by-chemotherapy-alone-1/comment_1301345966</link>        <description></description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>siteadmin</dc:creator>        <dc:rights></dc:rights>                <dc:date>2011-03-31T13:50:25Z</dc:date>        <dc:type>comment</dc:type>    </item>
+    <item rdf:about="http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1301530459">        <title>question_1301530459</title>        <link>http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1301530459</link>        <description></description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>siteadmin</dc:creator>        <dc:rights></dc:rights>                <dc:date>2011-04-21T14:39:19Z</dc:date>        <dc:type>suggestion</dc:type>    </item>
+    <item rdf:about="http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1296831143/comment_1301092897">        <title>Qian, Yong </title>        <link>http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1296831143/comment_1301092897</link>        <description></description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>siteadmin</dc:creator>        <dc:rights></dc:rights>                <dc:date>2011-03-28T20:44:17Z</dc:date>        <dc:type>comment</dc:type>    </item>
+    <item rdf:about="http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1300465637">        <title>question_1300465637</title>        <link>http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1300465637</link>        <description></description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>siteadmin</dc:creator>        <dc:rights></dc:rights>                <dc:date>2011-04-21T14:38:55Z</dc:date>        <dc:type>suggestion</dc:type>    </item>
+    <item rdf:about="http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1300466005">        <title>question_1300466005</title>        <link>http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1300466005</link>        <description></description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>siteadmin</dc:creator>        <dc:rights></dc:rights>                <dc:date>2011-04-21T14:39:08Z</dc:date>        <dc:type>suggestion</dc:type>    </item>
+    <item rdf:about="http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1297533065/comment_1300139951">        <title>Qian, Yong </title>        <link>http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1297533065/comment_1300139951</link>        <description></description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>siteadmin</dc:creator>        <dc:rights></dc:rights>                <dc:date>2011-03-16T21:54:46Z</dc:date>        <dc:type>comment</dc:type>    </item>
+    <item rdf:about="http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1299582960">        <title>question_1299582960</title>        <link>http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1299582960</link>        <description></description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>siteadmin</dc:creator>        <dc:rights></dc:rights>                <dc:date>2011-04-21T14:38:41Z</dc:date>        <dc:type>suggestion</dc:type>    </item>
+    <item rdf:about="http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1299539367">        <title>question_1299539367</title>        <link>http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1299539367</link>        <description></description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>siteadmin</dc:creator>        <dc:rights></dc:rights>                <dc:date>2011-04-21T14:38:30Z</dc:date>        <dc:type>suggestion</dc:type>    </item>
+    <item rdf:about="http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1296761243/comment_1299518297">        <title>Hecht, Toby</title>        <link>http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1296761243/comment_1299518297</link>        <description></description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>siteadmin</dc:creator>        <dc:rights></dc:rights>                <dc:date>2011-03-07T17:43:59Z</dc:date>        <dc:type>comment</dc:type>    </item>
+    <item rdf:about="http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1299508744">        <title>question_1299508744</title>        <link>http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1299508744</link>        <description></description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>siteadmin</dc:creator>        <dc:rights></dc:rights>                <dc:date>2011-07-29T21:20:09Z</dc:date>        <dc:type>suggestion</dc:type>    </item>
+    <item rdf:about="http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1299509784">        <title>question_1299509784</title>        <link>http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1299509784</link>        <description></description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>siteadmin</dc:creator>        <dc:rights></dc:rights>                <dc:date>2011-04-21T14:38:09Z</dc:date>        <dc:type>suggestion</dc:type>    </item>
+    <item rdf:about="http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1299510834">        <title>question_1299510834</title>        <link>http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1299510834</link>        <description></description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>siteadmin</dc:creator>        <dc:rights></dc:rights>                <dc:date>2011-04-21T14:38:20Z</dc:date>        <dc:type>suggestion</dc:type>    </item>
+    <item rdf:about="http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1299173164">        <title>question_1299173164</title>        <link>http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1299173164</link>        <description></description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>siteadmin</dc:creator>        <dc:rights></dc:rights>                <dc:date>2011-04-27T00:42:36Z</dc:date>        <dc:type>suggestion</dc:type>    </item>
+    <item rdf:about="http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1299172807">        <title>question_1299172807</title>        <link>http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1299172807</link>        <description></description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>siteadmin</dc:creator>        <dc:rights></dc:rights>                <dc:date>2011-04-21T14:37:32Z</dc:date>        <dc:type>suggestion</dc:type>    </item>
+
+
+
+</rdf:RDF>

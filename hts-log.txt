@@ -1,0 +1,103 @@
+HTTrack3.48-22+htsswf+htsjava launched on Tue, 27 Sep 2016 09:07:09 at http://provocativequestions.nci.nih.gov/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://provocativequestions.nci.nih.gov/ -O1 "C:\site_migration\ProvocativeQuestionsSite\Provocative Questions" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+09:10:57	Error: 	Unable to save file C:/site_migration/ProvocativeQuestionsSite/Provocative Questions/provocativequestions.nci.nih.gov/meetings/Oct-9-2010-PQ-Roster.pdf: Permission denied
+09:10:57	Warning: 	file not stored in cache due to bogus state (broken size, expected 49767 got 0): provocativequestions.nci.nih.gov/meetings/Oct-9-2010-PQ-Roster.pdf
+09:10:57	Error: 	Unable to save file C:/site_migration/ProvocativeQuestionsSite/Provocative Questions/provocativequestions.nci.nih.gov/meetings/PQ-2-2-2011-Roster.pdf: Permission denied
+09:10:57	Warning: 	file not stored in cache due to bogus state (broken size, expected 184970 got 0): provocativequestions.nci.nih.gov/meetings/PQ-2-2-2011-Roster.pdf
+09:10:57	Error: 	Unable to save file C:/site_migration/ProvocativeQuestionsSite/Provocative Questions/provocativequestions.nci.nih.gov/meetings/PQ-2-4-2011-Roster.pdf: Permission denied
+09:10:57	Warning: 	file not stored in cache due to bogus state (broken size, expected 139101 got 0): provocativequestions.nci.nih.gov/meetings/PQ-2-4-2011-Roster.pdf
+09:10:58	Error: 	Unable to save file C:/site_migration/ProvocativeQuestionsSite/Provocative Questions/provocativequestions.nci.nih.gov/meetings/PQ-2-10-2011-Roster.pdf: Permission denied
+09:10:58	Warning: 	file not stored in cache due to bogus state (broken size, expected 184941 got 0): provocativequestions.nci.nih.gov/meetings/PQ-2-10-2011-Roster.pdf
+09:10:58	Error: 	Unable to save file C:/site_migration/ProvocativeQuestionsSite/Provocative Questions/provocativequestions.nci.nih.gov/meetings/7-11-2011 PQ Roster.pdf: Permission denied
+09:10:58	Warning: 	file not stored in cache due to bogus state (broken size, expected 35073 got 0): provocativequestions.nci.nih.gov/meetings/7-11-2011 PQ Roster.pdf
+09:10:58	Error: 	Unable to save file C:/site_migration/ProvocativeQuestionsSite/Provocative Questions/provocativequestions.nci.nih.gov/meetings/7-21-2011 PQ Roster.pdf: Permission denied
+09:10:58	Warning: 	file not stored in cache due to bogus state (broken size, expected 80410 got 0): provocativequestions.nci.nih.gov/meetings/7-21-2011 PQ Roster.pdf
+09:10:59	Error: 	Unable to save file C:/site_migration/ProvocativeQuestionsSite/Provocative Questions/provocativequestions.nci.nih.gov/meetings/8-2-2011 PQ Roster.pdf: Permission denied
+09:10:59	Warning: 	file not stored in cache due to bogus state (broken size, expected 14323 got 0): provocativequestions.nci.nih.gov/meetings/8-2-2011 PQ Roster.pdf
+09:10:59	Error: 	Unable to save file C:/site_migration/ProvocativeQuestionsSite/Provocative Questions/provocativequestions.nci.nih.gov/meetings/8-4-2011 PQ Roster.pdf: Permission denied
+09:10:59	Warning: 	file not stored in cache due to bogus state (broken size, expected 44800 got 0): provocativequestions.nci.nih.gov/meetings/8-4-2011 PQ Roster.pdf
+09:12:55	Error: 	"Not Found" (404) at link provocativequestions.nci.nih.gov/GET (from provocativequestions.nci.nih.gov/portal_javascripts/GreenTheme/ploneScripts5880.js)
+09:12:55	Error: 	"Not Found" (404) at link provocativequestions.nci.nih.gov/POST (from provocativequestions.nci.nih.gov/portal_javascripts/GreenTheme/ploneScripts5880.js)
+09:12:55	Error: 	"Not Found" (404) at link provocativequestions.nci.nih.gov/portal_css/GreenTheme/logobg.jpg (from provocativequestions.nci.nih.gov/portal_css/GreenTheme/public.css)
+09:13:15	Error: 	"Not Found" (404) at link provocativequestions.nci.nih.gov/community-dialog/india-workshops/provocative-questions (from provocativequestions.nci.nih.gov/community-dialog)
+09:13:15	Error: 	"Not Found" (404) at link provocativequestions.nci.nih.gov/community-dialog/india-workshops/Questions (from provocativequestions.nci.nih.gov/community-dialog)
+09:14:04	Warning: 	Retry after error -4 (Incorrect length (0 Bytes, 49767 expected)) at link provocativequestions.nci.nih.gov/meetings/Oct-9-2010-PQ-Roster.pdf (from provocativequestions.nci.nih.gov/meetings)
+09:14:04	Warning: 	Retry after error -4 (Incorrect length (0 Bytes, 184970 expected)) at link provocativequestions.nci.nih.gov/meetings/PQ-2-2-2011-Roster.pdf (from provocativequestions.nci.nih.gov/meetings)
+09:14:04	Warning: 	Retry after error -4 (Incorrect length (0 Bytes, 139101 expected)) at link provocativequestions.nci.nih.gov/meetings/PQ-2-4-2011-Roster.pdf (from provocativequestions.nci.nih.gov/meetings)
+09:14:04	Warning: 	Retry after error -4 (Incorrect length (0 Bytes, 184941 expected)) at link provocativequestions.nci.nih.gov/meetings/PQ-2-10-2011-Roster.pdf (from provocativequestions.nci.nih.gov/meetings)
+09:14:05	Error: 	Unable to save file C:/site_migration/ProvocativeQuestionsSite/Provocative Questions/provocativequestions.nci.nih.gov/meetings/Oct-9-2010-PQ-Roster.pdf: Permission denied
+09:14:05	Warning: 	file not stored in cache due to bogus state (broken size, expected 49767 got 0): provocativequestions.nci.nih.gov/meetings/Oct-9-2010-PQ-Roster.pdf
+09:14:05	Error: 	Unable to save file C:/site_migration/ProvocativeQuestionsSite/Provocative Questions/provocativequestions.nci.nih.gov/meetings/PQ-2-2-2011-Roster.pdf: Permission denied
+09:14:05	Warning: 	file not stored in cache due to bogus state (broken size, expected 184970 got 0): provocativequestions.nci.nih.gov/meetings/PQ-2-2-2011-Roster.pdf
+09:14:05	Error: 	Unable to save file C:/site_migration/ProvocativeQuestionsSite/Provocative Questions/provocativequestions.nci.nih.gov/meetings/PQ-2-4-2011-Roster.pdf: Permission denied
+09:14:05	Warning: 	file not stored in cache due to bogus state (broken size, expected 139101 got 0): provocativequestions.nci.nih.gov/meetings/PQ-2-4-2011-Roster.pdf
+09:14:05	Warning: 	Retry after error -4 (Incorrect length (0 Bytes, 35073 expected)) at link provocativequestions.nci.nih.gov/meetings/7-11-2011 PQ Roster.pdf (from provocativequestions.nci.nih.gov/meetings)
+09:14:05	Warning: 	Retry after error -4 (Incorrect length (0 Bytes, 80410 expected)) at link provocativequestions.nci.nih.gov/meetings/7-21-2011 PQ Roster.pdf (from provocativequestions.nci.nih.gov/meetings)
+09:14:05	Warning: 	Retry after error -4 (Incorrect length (0 Bytes, 14323 expected)) at link provocativequestions.nci.nih.gov/meetings/8-2-2011 PQ Roster.pdf (from provocativequestions.nci.nih.gov/meetings)
+09:14:05	Error: 	Unable to save file C:/site_migration/ProvocativeQuestionsSite/Provocative Questions/provocativequestions.nci.nih.gov/meetings/PQ-2-10-2011-Roster.pdf: Permission denied
+09:14:05	Warning: 	file not stored in cache due to bogus state (broken size, expected 184941 got 0): provocativequestions.nci.nih.gov/meetings/PQ-2-10-2011-Roster.pdf
+09:14:05	Error: 	Unable to save file C:/site_migration/ProvocativeQuestionsSite/Provocative Questions/provocativequestions.nci.nih.gov/meetings/7-11-2011 PQ Roster.pdf: Permission denied
+09:14:05	Warning: 	file not stored in cache due to bogus state (broken size, expected 35073 got 0): provocativequestions.nci.nih.gov/meetings/7-11-2011 PQ Roster.pdf
+09:14:05	Error: 	Unable to save file C:/site_migration/ProvocativeQuestionsSite/Provocative Questions/provocativequestions.nci.nih.gov/meetings/7-21-2011 PQ Roster.pdf: Permission denied
+09:14:05	Warning: 	file not stored in cache due to bogus state (broken size, expected 80410 got 0): provocativequestions.nci.nih.gov/meetings/7-21-2011 PQ Roster.pdf
+09:14:05	Warning: 	Retry after error -4 (Incorrect length (0 Bytes, 44800 expected)) at link provocativequestions.nci.nih.gov/meetings/8-4-2011 PQ Roster.pdf (from provocativequestions.nci.nih.gov/meetings)
+09:14:05	Error: 	Unable to save file C:/site_migration/ProvocativeQuestionsSite/Provocative Questions/provocativequestions.nci.nih.gov/meetings/8-2-2011 PQ Roster.pdf: Permission denied
+09:14:05	Warning: 	file not stored in cache due to bogus state (broken size, expected 14323 got 0): provocativequestions.nci.nih.gov/meetings/8-2-2011 PQ Roster.pdf
+09:14:05	Error: 	"Not Found" (404) at link provocativequestions.nci.nih.gov/proposed-provocative-questions/provocative-questions (from provocativequestions.nci.nih.gov/meetings/10-9-2010-pq-summary)
+09:14:05	Error: 	"Not Found" (404) at link provocativequestions.nci.nih.gov/proposed-provocative-questions/Questions (from provocativequestions.nci.nih.gov/meetings/10-9-2010-pq-summary)
+09:14:06	Error: 	Unable to save file C:/site_migration/ProvocativeQuestionsSite/Provocative Questions/provocativequestions.nci.nih.gov/meetings/8-4-2011 PQ Roster.pdf: Permission denied
+09:14:06	Warning: 	file not stored in cache due to bogus state (broken size, expected 44800 got 0): provocativequestions.nci.nih.gov/meetings/8-4-2011 PQ Roster.pdf
+09:14:39	Error: 	"Not Found" (404) at link provocativequestions.nci.nih.gov/rfa/ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/ (from connect.facebook.net/en_US/all.js)
+09:14:39	Error: 	"Not Found" (404) at link provocativequestions.nci.nih.gov/restserver.php (from connect.facebook.net/en_US/all.js)
+09:14:39	Error: 	"Not Found" (404) at link provocativequestions.nci.nih.gov/rfa/dialog/ (from connect.facebook.net/en_US/all.js)
+09:14:52	Warning: 	Retry after error -4 (Incorrect length (0 Bytes, 49767 expected)) at link provocativequestions.nci.nih.gov/meetings/Oct-9-2010-PQ-Roster.pdf (from provocativequestions.nci.nih.gov/meetings)
+09:14:52	Warning: 	Retry after error -4 (Incorrect length (0 Bytes, 184970 expected)) at link provocativequestions.nci.nih.gov/meetings/PQ-2-2-2011-Roster.pdf (from provocativequestions.nci.nih.gov/meetings)
+09:14:52	Warning: 	Retry after error -4 (Incorrect length (0 Bytes, 139101 expected)) at link provocativequestions.nci.nih.gov/meetings/PQ-2-4-2011-Roster.pdf (from provocativequestions.nci.nih.gov/meetings)
+09:14:52	Warning: 	Retry after error -4 (Incorrect length (0 Bytes, 184941 expected)) at link provocativequestions.nci.nih.gov/meetings/PQ-2-10-2011-Roster.pdf (from provocativequestions.nci.nih.gov/meetings)
+09:14:54	Error: 	Unable to save file C:/site_migration/ProvocativeQuestionsSite/Provocative Questions/provocativequestions.nci.nih.gov/meetings/Oct-9-2010-PQ-Roster.pdf: Permission denied
+09:14:54	Warning: 	file not stored in cache due to bogus state (broken size, expected 49767 got 0): provocativequestions.nci.nih.gov/meetings/Oct-9-2010-PQ-Roster.pdf
+09:14:54	Warning: 	Retry after error -4 (Incorrect length (0 Bytes, 35073 expected)) at link provocativequestions.nci.nih.gov/meetings/7-11-2011 PQ Roster.pdf (from provocativequestions.nci.nih.gov/meetings)
+09:14:54	Error: 	Unable to save file C:/site_migration/ProvocativeQuestionsSite/Provocative Questions/provocativequestions.nci.nih.gov/meetings/PQ-2-2-2011-Roster.pdf: Permission denied
+09:14:54	Warning: 	file not stored in cache due to bogus state (broken size, expected 184970 got 0): provocativequestions.nci.nih.gov/meetings/PQ-2-2-2011-Roster.pdf
+09:14:54	Error: 	Unable to save file C:/site_migration/ProvocativeQuestionsSite/Provocative Questions/provocativequestions.nci.nih.gov/meetings/PQ-2-4-2011-Roster.pdf: Permission denied
+09:14:54	Warning: 	file not stored in cache due to bogus state (broken size, expected 139101 got 0): provocativequestions.nci.nih.gov/meetings/PQ-2-4-2011-Roster.pdf
+09:14:54	Error: 	Unable to save file C:/site_migration/ProvocativeQuestionsSite/Provocative Questions/provocativequestions.nci.nih.gov/meetings/PQ-2-10-2011-Roster.pdf: Permission denied
+09:14:54	Warning: 	file not stored in cache due to bogus state (broken size, expected 184941 got 0): provocativequestions.nci.nih.gov/meetings/PQ-2-10-2011-Roster.pdf
+09:14:54	Warning: 	Retry after error -4 (Incorrect length (0 Bytes, 80410 expected)) at link provocativequestions.nci.nih.gov/meetings/7-21-2011 PQ Roster.pdf (from provocativequestions.nci.nih.gov/meetings)
+09:14:54	Warning: 	Retry after error -4 (Incorrect length (0 Bytes, 14323 expected)) at link provocativequestions.nci.nih.gov/meetings/8-2-2011 PQ Roster.pdf (from provocativequestions.nci.nih.gov/meetings)
+09:14:54	Warning: 	Retry after error -4 (Incorrect length (0 Bytes, 44800 expected)) at link provocativequestions.nci.nih.gov/meetings/8-4-2011 PQ Roster.pdf (from provocativequestions.nci.nih.gov/meetings)
+09:14:55	Error: 	Unable to save file C:/site_migration/ProvocativeQuestionsSite/Provocative Questions/provocativequestions.nci.nih.gov/meetings/7-11-2011 PQ Roster.pdf: Permission denied
+09:14:55	Warning: 	file not stored in cache due to bogus state (broken size, expected 35073 got 0): provocativequestions.nci.nih.gov/meetings/7-11-2011 PQ Roster.pdf
+09:14:55	Error: 	Unable to save file C:/site_migration/ProvocativeQuestionsSite/Provocative Questions/provocativequestions.nci.nih.gov/meetings/7-21-2011 PQ Roster.pdf: Permission denied
+09:14:55	Warning: 	file not stored in cache due to bogus state (broken size, expected 80410 got 0): provocativequestions.nci.nih.gov/meetings/7-21-2011 PQ Roster.pdf
+09:14:55	Error: 	Unable to save file C:/site_migration/ProvocativeQuestionsSite/Provocative Questions/provocativequestions.nci.nih.gov/meetings/8-2-2011 PQ Roster.pdf: Permission denied
+09:14:55	Warning: 	file not stored in cache due to bogus state (broken size, expected 14323 got 0): provocativequestions.nci.nih.gov/meetings/8-2-2011 PQ Roster.pdf
+09:14:55	Error: 	Unable to save file C:/site_migration/ProvocativeQuestionsSite/Provocative Questions/provocativequestions.nci.nih.gov/meetings/8-4-2011 PQ Roster.pdf: Permission denied
+09:14:55	Warning: 	file not stored in cache due to bogus state (broken size, expected 44800 got 0): provocativequestions.nci.nih.gov/meetings/8-4-2011 PQ Roster.pdf
+09:14:55	Error: 	"Not Found" (404) at link static.cancer.gov/webanalytics/Netscape6/ (from static.cancer.gov/webanalytics/s_code.js)
+09:15:32	Error: 	"Incorrect length (0 Bytes, 49767 expected)" (-4) after 2 retries at link provocativequestions.nci.nih.gov/meetings/Oct-9-2010-PQ-Roster.pdf (from provocativequestions.nci.nih.gov/meetings)
+09:15:32	Error: 	Unable to save file C:/site_migration/ProvocativeQuestionsSite/Provocative Questions/provocativequestions.nci.nih.gov/meetings/Oct-9-2010-PQ-Roster.pdf: Permission denied
+09:15:34	Error: 	"Incorrect length (0 Bytes, 184970 expected)" (-4) after 2 retries at link provocativequestions.nci.nih.gov/meetings/PQ-2-2-2011-Roster.pdf (from provocativequestions.nci.nih.gov/meetings)
+09:15:34	Error: 	Unable to save file C:/site_migration/ProvocativeQuestionsSite/Provocative Questions/provocativequestions.nci.nih.gov/meetings/PQ-2-2-2011-Roster.pdf: Permission denied
+09:15:36	Error: 	"Incorrect length (0 Bytes, 139101 expected)" (-4) after 2 retries at link provocativequestions.nci.nih.gov/meetings/PQ-2-4-2011-Roster.pdf (from provocativequestions.nci.nih.gov/meetings)
+09:15:36	Error: 	Unable to save file C:/site_migration/ProvocativeQuestionsSite/Provocative Questions/provocativequestions.nci.nih.gov/meetings/PQ-2-4-2011-Roster.pdf: Permission denied
+09:15:38	Error: 	"Incorrect length (0 Bytes, 184941 expected)" (-4) after 2 retries at link provocativequestions.nci.nih.gov/meetings/PQ-2-10-2011-Roster.pdf (from provocativequestions.nci.nih.gov/meetings)
+09:15:38	Error: 	Unable to save file C:/site_migration/ProvocativeQuestionsSite/Provocative Questions/provocativequestions.nci.nih.gov/meetings/PQ-2-10-2011-Roster.pdf: Permission denied
+09:15:40	Error: 	"Incorrect length (0 Bytes, 35073 expected)" (-4) after 2 retries at link provocativequestions.nci.nih.gov/meetings/7-11-2011 PQ Roster.pdf (from provocativequestions.nci.nih.gov/meetings)
+09:15:40	Error: 	Unable to save file C:/site_migration/ProvocativeQuestionsSite/Provocative Questions/provocativequestions.nci.nih.gov/meetings/7-11-2011 PQ Roster.pdf: Permission denied
+09:15:40	Error: 	"Incorrect length (0 Bytes, 80410 expected)" (-4) after 2 retries at link provocativequestions.nci.nih.gov/meetings/7-21-2011 PQ Roster.pdf (from provocativequestions.nci.nih.gov/meetings)
+09:15:40	Error: 	Unable to save file C:/site_migration/ProvocativeQuestionsSite/Provocative Questions/provocativequestions.nci.nih.gov/meetings/7-21-2011 PQ Roster.pdf: Permission denied
+09:15:40	Error: 	"Incorrect length (0 Bytes, 14323 expected)" (-4) after 2 retries at link provocativequestions.nci.nih.gov/meetings/8-2-2011 PQ Roster.pdf (from provocativequestions.nci.nih.gov/meetings)
+09:15:40	Error: 	Unable to save file C:/site_migration/ProvocativeQuestionsSite/Provocative Questions/provocativequestions.nci.nih.gov/meetings/8-2-2011 PQ Roster.pdf: Permission denied
+09:15:40	Error: 	"Incorrect length (0 Bytes, 44800 expected)" (-4) after 2 retries at link provocativequestions.nci.nih.gov/meetings/8-4-2011 PQ Roster.pdf (from provocativequestions.nci.nih.gov/meetings)
+09:15:40	Error: 	Unable to save file C:/site_migration/ProvocativeQuestionsSite/Provocative Questions/provocativequestions.nci.nih.gov/meetings/8-4-2011 PQ Roster.pdf: Permission denied
+09:18:15	Warning: 	Retry after error -4 (No data (connection closed)) at link provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1297125847/comment_1299022304/?searchterm=None (from provocativequestions.nci.nih.gov/search?b_start:int=60&sort_on=Date&sort_order=reverse&Creator=siteadmin)
+
+HTTrack Website Copier/3.48-22 mirror complete in 11 minutes 42 seconds : 1221 links scanned, 1182 files written (20398329 bytes overall) [20843582 bytes received at 29691 bytes/sec], 349944 bytes transferred using HTTP compression in 7 files, ratio 31%, 13.2 requests per connection
+(51 errors, 41 warnings, 0 messages)

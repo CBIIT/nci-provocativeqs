@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+         xmlns="http://purl.org/rss/1.0/">
+
+
+
+
+    
+
+
+
+<channel rdf:about="http://provocativequestions.nci.nih.gov/search_rss">
+  <title>Provocative Questions</title>
+  <link>http://provocativequestions.nci.nih.gov</link>
+  
+  <description>
+    
+            These are the search results for the query, showing results 31 to 45.
+        
+  </description>
+  
+  
+  
+  
+  <image rdf:resource="http://provocativequestions.nci.nih.gov/logo.jpg"/>
+
+  <items>
+    <rdf:Seq>
+        
+            <rdf:li rdf:resource="http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/provocative-questions/what-are-appropriate-criteria-for-determining-and-testing-combination-cancer-therapies/comment_1309641041"/>
+        
+        
+            <rdf:li rdf:resource="http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1309532294"/>
+        
+        
+            <rdf:li rdf:resource="http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1309385905"/>
+        
+        
+            <rdf:li rdf:resource="http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1309360864"/>
+        
+        
+            <rdf:li rdf:resource="http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1309291494"/>
+        
+        
+            <rdf:li rdf:resource="http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1309291860"/>
+        
+        
+            <rdf:li rdf:resource="http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1309291793"/>
+        
+        
+            <rdf:li rdf:resource="http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1309292190"/>
+        
+        
+            <rdf:li rdf:resource="http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1309292133"/>
+        
+        
+            <rdf:li rdf:resource="http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1297191134/comment_1309232980"/>
+        
+        
+            <rdf:li rdf:resource="http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1309209288"/>
+        
+        
+            <rdf:li rdf:resource="http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1309214151"/>
+        
+        
+            <rdf:li rdf:resource="http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1309209336"/>
+        
+        
+            <rdf:li rdf:resource="http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1297462239/comment_1309217871"/>
+        
+        
+            <rdf:li rdf:resource="http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1308950605"/>
+        
+    </rdf:Seq>
+  </items>
+
+</channel>
+
+    <item rdf:about="http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/provocative-questions/what-are-appropriate-criteria-for-determining-and-testing-combination-cancer-therapies/comment_1309641041">        <title>Paternostro, Giovanni</title>        <link>http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/provocative-questions/what-are-appropriate-criteria-for-determining-and-testing-combination-cancer-therapies/comment_1309641041</link>        <description></description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>siteadmin</dc:creator>        <dc:rights></dc:rights>                <dc:date>2011-07-05T13:35:42Z</dc:date>        <dc:type>comment</dc:type>    </item>
+    <item rdf:about="http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1309532294">        <title>question_1309532294</title>        <link>http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1309532294</link>        <description></description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>siteadmin</dc:creator>        <dc:rights></dc:rights>                <dc:date>2011-07-08T18:38:20Z</dc:date>        <dc:type>suggestion</dc:type>    </item>
+    <item rdf:about="http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1309385905">        <title>question_1309385905</title>        <link>http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1309385905</link>        <description></description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>siteadmin</dc:creator>        <dc:rights></dc:rights>                <dc:date>2011-06-30T13:57:02Z</dc:date>        <dc:type>suggestion</dc:type>    </item>
+    <item rdf:about="http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1309360864">        <title>question_1309360864</title>        <link>http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1309360864</link>        <description></description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>siteadmin</dc:creator>        <dc:rights></dc:rights>                <dc:date>2011-06-29T15:32:10Z</dc:date>        <dc:type>suggestion</dc:type>    </item>
+    <item rdf:about="http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1309291494">        <title>question_1309291494</title>        <link>http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1309291494</link>        <description></description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>siteadmin</dc:creator>        <dc:rights></dc:rights>                <dc:date>2011-06-28T21:04:03Z</dc:date>        <dc:type>suggestion</dc:type>    </item>
+    <item rdf:about="http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1309291860">        <title>question_1309291860</title>        <link>http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1309291860</link>        <description></description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>siteadmin</dc:creator>        <dc:rights></dc:rights>                <dc:date>2011-06-28T21:03:10Z</dc:date>        <dc:type>suggestion</dc:type>    </item>
+    <item rdf:about="http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1309291793">        <title>question_1309291793</title>        <link>http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1309291793</link>        <description></description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>siteadmin</dc:creator>        <dc:rights></dc:rights>                <dc:date>2011-06-28T21:03:34Z</dc:date>        <dc:type>suggestion</dc:type>    </item>
+    <item rdf:about="http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1309292190">        <title>question_1309292190</title>        <link>http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1309292190</link>        <description></description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>siteadmin</dc:creator>        <dc:rights></dc:rights>                <dc:date>2011-06-28T21:02:11Z</dc:date>        <dc:type>suggestion</dc:type>    </item>
+    <item rdf:about="http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1309292133">        <title>question_1309292133</title>        <link>http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1309292133</link>        <description></description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>siteadmin</dc:creator>        <dc:rights></dc:rights>                <dc:date>2011-06-28T21:02:39Z</dc:date>        <dc:type>suggestion</dc:type>    </item>
+    <item rdf:about="http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1297191134/comment_1309232980">        <title>Pagel, Mark</title>        <link>http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1297191134/comment_1309232980</link>        <description></description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>siteadmin</dc:creator>        <dc:rights></dc:rights>                <dc:date>2011-06-28T15:22:25Z</dc:date>        <dc:type>comment</dc:type>    </item>
+    <item rdf:about="http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1309209288">        <title>question_1309209288</title>        <link>http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1309209288</link>        <description></description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>siteadmin</dc:creator>        <dc:rights></dc:rights>                <dc:date>2011-06-28T15:21:37Z</dc:date>        <dc:type>suggestion</dc:type>    </item>
+    <item rdf:about="http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1309214151">        <title>question_1309214151</title>        <link>http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1309214151</link>        <description></description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>siteadmin</dc:creator>        <dc:rights></dc:rights>                <dc:date>2011-06-28T15:20:27Z</dc:date>        <dc:type>suggestion</dc:type>    </item>
+    <item rdf:about="http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1309209336">        <title>question_1309209336</title>        <link>http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1309209336</link>        <description></description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>siteadmin</dc:creator>        <dc:rights></dc:rights>                <dc:date>2011-06-28T15:21:00Z</dc:date>        <dc:type>suggestion</dc:type>    </item>
+    <item rdf:about="http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1297462239/comment_1309217871">        <title>Nosek, Margaret</title>        <link>http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1297462239/comment_1309217871</link>        <description></description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>siteadmin</dc:creator>        <dc:rights></dc:rights>                <dc:date>2011-06-28T00:59:35Z</dc:date>        <dc:type>comment</dc:type>    </item>
+    <item rdf:about="http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1308950605">        <title>question_1308950605</title>        <link>http://provocativequestions.nci.nih.gov/community-dialog/us-workshops/Questions/question_1308950605</link>        <description></description>        <dc:publisher>No publisher</dc:publisher>        <dc:creator>siteadmin</dc:creator>        <dc:rights></dc:rights>                <dc:date>2011-06-27T17:02:53Z</dc:date>        <dc:type>suggestion</dc:type>    </item>
+
+
+
+</rdf:RDF>

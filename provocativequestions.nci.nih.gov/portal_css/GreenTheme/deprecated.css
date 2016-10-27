@@ -1,0 +1,199 @@
+
+/* - deprecated.css - */
+@media screen {
+/* Deprecated CSS elements - do not depend on these, they will disappear in
+   the next version of Plone. They are here for backwards compatibility only. */
+
+/*  (do not remove this :) */
+/*  (not this either :) */
+
+/* Classes that were introduced erroneously in Plone 2.1. Will disappear in 3.0. */
+
+.portletItemSingle {
+    margin: 0;
+    padding: 1em;
+    border: 1px solid #436EAE;
+    border-top: none;
+}
+
+dd.portletItemLast {
+    margin: 0;
+    padding: 0.25em 1em;
+    border: 1px solid #436EAE;
+    border-style: none solid;
+}
+
+/* Old div-based portlet syntax - this is deprecated and will be removed in plone 3.0, please use the new
+   definition list-based portlets above in your products. */
+
+div.portlet {
+    border: none;
+    margin-bottom: 1em;
+    padding: 0;
+}
+
+div.portlet a {
+    text-decoration: none;
+}
+
+/* Compensation when rendering portlets in the content area */
+#region-content .portlet {
+    font-size: 94%;
+}
+
+div.portlet h4 { /* The new base portlet header, h5 and h6 will be for use inside
+                 the portlet in the upcoming versions. */
+    background-color: #94ACD0;
+    border: 1px solid #436EAE;
+    padding: 0em 0.3em 0em 1em;
+    text-transform: none;
+    display: block;
+    font-size: 1em;
+    font-weight: normal;
+}
+div.portlet h5 {
+    background-color: #94ACD0;
+    border: 1px solid #436EAE;
+    padding: 0em 1em 0em 1em;
+    text-transform: none;
+    display: inline;
+    font-size: 1em;
+    font-weight: normal;
+    white-space: nowrap;
+    position: relative;
+    top: -1px;
+}
+div.portlet h6 {
+    background-color: #94ACD0;
+    border: 1px solid #436EAE;
+    padding: 0em 0.3em 0em 1em;
+    text-transform: none;
+    display: block;
+    font-size: 1em;
+    font-weight: normal;
+}
+
+div.portletBody {
+    position: relative;
+    top: -1px;
+    background: transparent;
+    border: 1px solid #436EAE;
+}
+div.portletDetails {
+    text-align: right;
+}
+
+div.portletContent {
+    padding: 1em;
+}
+div.portletAction {
+    float: right;
+    width: 0.8em;
+    text-align: center;
+    display: block;
+    text-transform: none;
+    border-left: 1px solid #436EAE;
+    padding-left: 0.3em;
+}
+
+div.portlet h1,
+div.portlet h2,
+div.portlet h3,
+div.portlet h4 {
+    margin: 0;
+    padding: 0;
+}
+
+div.portlet input {
+    font-size: 100%;
+}
+
+div.portletSyndication {
+    display: block;
+    float: left; 
+    border: 1px solid #8cacbb; 
+    background-color: #dee7ec;
+    font-size: 85%;
+}
+
+a.portletMore {
+    display: block;
+    text-align: right;
+}
+
+div.portletFooter {
+    padding: 0.5em 1em 1em 1em;
+}
+
+/* Old navigation tree styling */
+
+.navIcon,
+.navIconRoot {
+    position: relative;
+    right: 20px;
+}
+
+.navItemText {
+    margin-left: -20px;
+}
+
+.navRootItem,
+.navItem {
+    margin: 0 0 0.2em 0;
+    border: 1px solid White;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: 0 1px;
+    padding: 0.1em 0.25em 0.2em 20px;
+    margin: 1px 0;
+}
+
+.currentNavItem {
+    background-color: #94ACD0;
+    color: #436976;
+    border: 1px solid #436EAE;
+}
+
+.portletNavigationTreeItem {
+    margin: 0;
+}
+
+.portletNavigationTreeItem a {
+    display: block;
+    text-decoration: none;
+    padding: 0.5em 0 0.5em 1.75em;
+    background-repeat: no-repeat;
+    background-position: 0 3px;
+    border: 1px solid White;
+}
+
+.portletNavigationTreeItem a:hover,
+.currentNavItem {
+    background-color: #94ACD0;
+    color: #436976;
+    border: 1px solid #436EAE !important;
+}
+
+/* The new navtree level structure. */
+
+.portletNavigationLevel0 {
+    margin: 0;
+}
+
+
+/* The old navtree levels. */
+
+.navLevel1 { margin-left: 0em; }
+.navLevel2 { margin-left: 1em; }
+.navLevel3 { margin-left: 2em; }
+.navLevel4 { margin-left: 3em; }
+.navLevel5 { margin-left: 4em; }
+.navLevel6 { margin-left: 4.5em; }
+.navLevel7 { margin-left: 5em;   }
+.navLevel8 { margin-left: 5.5em; }
+
+
+/*  */
+
+}
+

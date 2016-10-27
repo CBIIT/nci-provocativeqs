@@ -1,0 +1,432 @@
+
+/* - greentheme.css - */
+@media screen {
+/*
+  This file is based on the ploneCustom.css.dtml shipped with Plone.
+
+   (do not remove this)
+   (not this either)
+*/
+
+/* YOUR CSS RULES START HERE */
+
+h3 {
+ font-weight:bold;
+ font-size: 115%;
+ color: #409365;
+}
+
+/* Logo Background Position Classes */
+.homepageLogoBg {
+    background-position:100% 9%;
+}
+
+.subpagesLogoBg {
+    background-position:100% 30%;
+}
+
+/* Begin Dropdown Nav CSS */
+
+/* Reset some of the formatting that we don't need in the tab menus. */
+
+#portal-globalnav * {
+margin: 0;
+padding: 0em 0em .01em 0em;
+border: none !important;
+}
+#portal-tabs-only div span,
+#portal-tabs-only div,
+#portal-full-sitemap div a,
+#portal-full-sitemap div {
+display: block;
+text-transform: none; /* */
+}                         /* */
+* html #portal-tabs-only div span,
+* html #portal-tabs-only div,
+* html #portal-full-sitemap div a,
+* html #portal-full-sitemap div {
+width: 0.1%; /* */
+}
+/* */
+#portal-globalnav {
+position: relative;
+z-index: 3;           /* */
+margin: 0;
+height:3.1em;
+background-color:#fff;
+border-top: 1px solid #419466;
+border-bottom: 1px solid #419466;
+}
+* html #portal-globalnav {
+margin-bottom: 0; /* */
+width: 95%;       /* */
+}
+*+html #portal-globalnav {
+top:3.9em;
+}
+#LSResult {
+z-index: 4;       /* */
+}
+#portal-tabs-only {
+position: absolute;
+}
+#portal-full-sitemap {
+position: relative; /* */
+/* */
+}                       /* */
+#portal-tabs-only div {
+position: relative; /* */
+left: -999em;       /* */
+}
+#portal-tabs-only li,
+#portal-full-sitemap li {
+float: left;        /* */
+position: relative; /* */
+margin:0em 0em 0em 15em;
+}
+#portal-full-sitemap li ul {
+position: absolute;
+left: -999em; /* */
+width: 25em;  /* */
+}
+/* */
+#portal-tabs-only li,
+#portal-full-sitemap li {
+margin: 0 60px 0 0;
+padding: 0;
+background-color: #fff;
+}
+#portal-full-sitemap li.last {
+margin: 0;	
+}
+#portal-full-sitemap li.sfhover,
+#portal-full-sitemap ul.navTreeLevel2 li:hover {
+background-color: #9b9b9b;
+}
+
+#portal-full-sitemap li ul {
+background-color: #436EAE;
+}
+#portal-full-sitemap li li {
+background-color: #707070;
+border: none !important;
+float: left;
+clear: both;
+width: 100%;
+margin: 0;
+position: static; /* */
+}
+/* */
+#portal-tabs-only li div,
+#portal-full-sitemap li div {
+padding: 0;
+background-position: 8px 35% !important;
+}
+#portal-tabs-only li div span,
+#portal-full-sitemap li div a,
+#portal-full-sitemap li div a:hover,
+#portal-full-sitemap li div a.navTreeCurrentItem,
+#portal-full-sitemap li div a:hover.navTreeCurrentItem{
+line-height: 1.6em;
+padding: 0.75em; /* */
+background-color: transparent;
+margin: 0;
+color:#727272;
+}
+#portal-full-sitemap li div a:hover,#portal-full-sitemap li:hover {
+background-color: #707070;	
+color: #fff !important;	
+}
+#portal-full-sitemap li:hover a {
+color: #fff !important;
+}
+#portal-full-sitemap ul.navTreeLevel2 li:hover a {
+background-color: #9b9b9b;	
+}
+#portal-full-sitemap li div a.active {
+color: #fff;
+background-color: #707070;	
+}
+#portal-full-sitemap li li a {
+white-space: normal; /* */
+display: block;
+color:#FFF;
+}
+#portal-full-sitemap li li div {
+display: block; /* */
+}                   /* */
+#portal-full-sitemap li li div a,
+#portal-full-sitemap li li div a:hover,
+#portal-full-sitemap li li div a.navTreeCurrentItem,
+#portal-full-sitemap li li div a:hover.navTreeCurrentItem {
+padding-top: 3px;    /* */
+padding-bottom: 3px; /* */
+color:#FFF;
+}
+/* */
+#portal-full-sitemap li.sfhover ul,
+#portal-full-sitemap li.sfhover ul ul,
+#portal-full-sitemap li.sfhover ul ul ul,
+#portal-full-sitemap li:hover ul,
+#portal-full-sitemap li:hover ul ul,
+#portal-full-sitemap li:hover ul ul ul {
+left: -999em; /* */
+}
+#portal-full-sitemap li.sfhover ul,
+#portal-full-sitemap li:hover ul {
+top: 3.1em; /* */
+left: -1px; /* */
+}
+#portal-full-sitemap li li.sfhover ul,
+#portal-full-sitemap li li:hover ul {
+top: auto;
+margin-top: -2.9em; /* */
+left: 16.5em;         /* */
+display: none;
+}
+
+/* Required for active item to maintain font/bg color state */
+.navTreeCurrentItem {
+ background-color:#707070 !important;
+ color: #FFF !important;
+}
+/* */
+*+html .ploneCalendar {
+border-collapse: collapse; /* */
+}
+*+html .actionMenu .actionMenuContent ul {
+position: relative;
+margin-top: -8px; /* */
+}
+
+#portal-header {
+height: 115px;
+*height: 69px;	
+}
+
+/* End Dropdown Nav CSS */
+
+#rfaSubText {
+	margin:0;
+	padding:10px 10px 10px 22px;
+	width:93%;
+	height:110px;
+	text-align:left;
+	font-size:130%;
+	color:#000;
+}
+
+.rfaQuestions {
+	margin:75px 0px 0px 0px;
+	margin:0px\9;
+	width:100%;
+	align:center;
+}
+
+.rfaQuestionsNoPad {
+	margin:0;
+	width:100%;
+	align:center;
+}
+
+/* End RFA CSS */
+
+/* Begin New CSS */
+ul.minibanner {
+	width: 100%;
+	height: 34px;
+	background: #707070;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+ul.minibanner li.nci {
+	float: left;
+	margin: 0 460px 0 25px;
+}
+ul.minibanner li.nih, ul.minibanner li.cancergov {
+	float: left;
+	margin: 0;
+}
+
+#subheader {
+  background:url('subheader.jpg');
+  height:361px;
+  +margin-top:4em;
+  background-position:24px 0;
+  background-repeat:no-repeat;
+}
+
+#subheaderText {
+padding-left: 620px;
+padding-top: 90px;
+font-size: 20px;
+font-weight: bold;
+font-family:Georgia, "Times New Roman", Times, serif;
+width:37%;
+}
+#subheaderText p.respond {
+font-size:75%;
+margin-top: 10px;
+}
+#subheaderText p.respond a {
+	text-decoration: none;
+}
+#subheaderText p.respond a:hover {
+	text-decoration: underline;
+}		
+#subheaderTextIntro {
+width:65%;
+}
+#subheaderText ul {
+/*margin:15px 0px 0px 35px;
+padding:0;
+width:35%;
+list-style-type: square;*/
+font-size:75%;
+font-weight:normal;
+}
+#subheaderText ul li {
+list-style: none;
+list-style-image: none;
+padding-left: 15px;
+background: url('bullets-green.gif') no-repeat 0 8px
+}
+
+#content {
+padding: 1em 34px 0 !important;
+margin: 0em 0em 2em 0em;
+}
+#content h1 {
+	border-bottom: 1px solid #409365; 
+	padding-bottom: 5px; 
+	margin-bottom: 15px; 
+	width: 600px;
+}
+
+/* BEGIN New breadcrumbs and Search section */
+.breadcrumbs-search {
+	margin-top: 10px; 
+        *margin-top: 55px;
+        width: 100%; 
+        overflow: auto;
+}
+.breadcrumbs-search div.breadcrumbs {
+	float: left; margin: 5px 0 0 35px;
+}
+.breadcrumbs-search div.search {
+	float: right; margin-right: 30px;
+}
+#searchterm {
+	margin-top: 0; 
+	height: 22px; 
+	width: 160px; 
+	border: 1px solid #3776bb;
+}
+.rfaSearchTableSearchInput {
+	margin-top: 0;
+}
+/* END New breadcrumbs and Search section */
+
+#homepage-content {
+margin: 15px 0 0 0;
+}
+.homepage-video {
+	float: right; 
+	margin: 0 0 10px 10px;
+}
+.homepage-video .caption p {
+line-height: 1.3;	
+}
+
+div.rfaResultQuestionId {
+margin-bottom: 40px;
+text-align:left;
+}
+
+div.rfaResultQuestionId u {
+text-decoration:none;
+font-weight:bold;
+font-size: 115%;
+color: #409365;
+display:block;
+}
+
+span.rfaResultQuestionId {
+font-size: 150%;
+} 
+
+span.rfaResultQuestionContent {
+font-size: 110%;
+}
+
+.rfaResultQuestionId h3 {
+	color: #3f9364;
+	margin: 10px 0 4px;
+}
+
+.rfaTopics {
+   margin-top: 10px;
+   font-weight:bold;
+   font-size:130%;
+   line-height:1.2em;
+  }
+  
+.rfaTopics a {
+   margin:5px 0px 12px 0px;
+   padding:0;
+   display:inline-block;
+   font-weight:normal;
+   font-size:75%;
+  }
+
+.rfaArchiveTopics {
+margin-top: 10px;
+font-weight:bold;
+font-size:130%;
+
+}
+.rfaArchiveTopics a {
+margin:0px 0px 12px 0px;
+padding:0;
+display:inline-block;
+font-weight:normal;
+font-size:75%;
+}
+.rfaGrantLink {
+font-size:125%;
+}
+  
+.rfaArchiveGrantText {
+   font-size:85%; 
+  }
+
+.rfaResultLink {
+  font-size: 120%;
+  font-weight:bold;
+}
+
+#portal-column-content #content {
+ padding:0 !important;
+ margin:1em 21px 0 !important;
+}
+
+.textBold {
+  font-weight: bold;
+}
+/* End New CSS */
+
+/* Social Media Icons Custom CSS */
+.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify;vertical-align:baseline !important;}
+
+.twitter-share-button {
+width:87px !important;
+margin-left:4px;
+  }
+
+/* YOUR CSS RULES STOP HERE */
+/*  */
+/* Latest version of the documentation on pre-defined properties from Plone 
+   can be found in CMFPlone/skins/plone_styles/ploneCustom.css.dtml */
+}
+

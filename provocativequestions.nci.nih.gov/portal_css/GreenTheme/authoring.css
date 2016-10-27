@@ -1,0 +1,727 @@
+
+/* - authoring.css - */
+@media screen {
+/*
+** Plone style sheet - Authoring Elements
+**
+** Style sheet documentation can be found at http://plone.org/documentation
+**
+** You should preferrably use ploneCustom.css to add your own CSS classes and to
+** customize your portal, as these are the base fundaments of Plone, and will
+** change and be refined in newer versions. Keeping your changes in
+** ploneCustom.css will make it easier to upgrade.
+**
+** Feel free to use whole or parts of this for your own designs, but give credit
+** where credit is due.
+**
+*/
+
+/*  (do not remove this :) */
+/*  (not this either :) */
+
+.standalone,
+.documentEditable * .standalone {
+background: #94ACD0 url(../../linkOpaque.gif) 9px 1px no-repeat;
+cursor: pointer;
+font-size: 85%;
+padding: 1px 1px 1px 15px;
+text-transform: none;
+overflow: visible;
+}
+.context,
+.documentEditable * .context {
+background: transparent url(../../linkTransparent.gif) 9px 1px no-repeat;
+cursor: pointer;
+font-size: 85%;
+padding: 1px 1px 1px 15px;
+text-transform: none;
+overflow: visible;
+}
+.destructive,
+.documentEditable * .destructive {
+background: #ffce7b url(../../linkTransparent.gif) 9px 1px no-repeat;
+border: 1px solid #ffa500;
+cursor: pointer;
+font-size: 85%;
+padding: 1px 1px 1px 15px;
+text-transform: none;
+overflow: visible;
+}
+input.searchButton {
+margin-bottom: 1px ! important;
+font-size: 85%;
+background: White url(../../search_icon.gif) 2px 1px no-repeat;
+cursor: pointer;
+padding: 1px 1px 1px 15px;
+text-transform: none;
+
+}
+.add,
+.documentEditable * .add {
+}
+.quickSearch {
+}
+.notify,
+.documentEditable * .notify {
+border: 1px solid #ffa500;
+}
+
+.card {
+background-color: #94ACD0;
+border-color: #436EAE;
+border-width: 1px;
+border-style: solid;
+float: left;
+margin: 1em;
+text-align: center;
+width: 110px;
+padding: 1em 0;
+}
+
+.card a {
+text-decoration: none;
+}
+
+.portrait {
+background-color: #94ACD0;
+border-color: #436EAE;
+border-width: 1px;
+border-style: solid;
+font-size: 85%;
+margin: 0.5em;
+padding: 1em 0 0.5em 0;
+text-align: center;
+width: 100px;
+}
+
+.portraitPhoto {
+border: 1px solid black;
+}
+
+.listing,
+.stx table {
+/* The default table for document listings. Contains name, document types, modification times etc in a file-browser-like fashion */
+border-collapse: collapse;
+border-left: 1px solid #436EAE;
+border-bottom: 1px solid #436EAE;
+font-size: 85%;
+margin: 1em 0em 1em 0em;
+}
+.listing th,
+.stx table th {
+background: #94ACD0;
+border-top: 1px solid #436EAE;
+border-bottom: 1px solid #436EAE;
+border-right: 1px solid #436EAE;
+font-weight: normal;
+padding: 0.25em 1em;
+text-transform: none;
+}
+.listing .top {
+border-left: 1px solid White;
+border-top: 1px solid White ! important;
+border-right: 1px solid White ! important;
+text-align: right ! important;
+padding: 0em 0em 1em 0em;
+}
+.listing .listingCheckbox {
+text-align: center;
+}
+.listing td,
+.stx table td {
+border-right: 1px solid #436EAE;
+padding: 0.25em 1em;
+}
+
+.listing a {
+text-decoration: none;
+}
+
+.listing a:hover {
+text-decoration: underline;
+}
+.listing img {
+vertical-align: middle;
+}
+
+.listing td a label,
+.stx table td a label {
+cursor: pointer;
+}
+
+/* Vertical addition class */
+
+.vertical {
+background-color: White;
+}
+.vertical th {
+padding: 0.5em;
+}
+
+.vertical td {
+border-top: 1px solid #436EAE;
+padding: 0.5em;
+}
+
+
+
+ul.configlets {
+margin: 1em 0;
+list-style-image: none;
+list-style: none;
+}
+
+ul.configlets li {
+margin-bottom: 1em;
+}
+
+ul.configlets li a {
+text-decoration: none;
+border: none;
+}
+
+ul.configlets li a:visited {
+color: #436976;
+background-color: transparent;
+}
+
+ul.configlets li a:active {
+color: #436976;
+background-color: transparent;
+}
+
+ul.configlets li label {
+font-weight: bold;
+}
+
+ul.configletDetails {
+margin: 0em 1em 1em 4em;
+list-style-image: none;
+list-style: none;
+}
+
+ul.configletDetails li {
+margin-bottom: 1em;
+display: inline;
+}
+
+ul.configletDetails li a {
+text-decoration: none;
+}
+
+ul.configletDetails li label {
+font-weight: bold;
+}
+
+/* List classes without markers */
+
+ul.visualNoMarker,
+ol.visualNoMarker {
+list-style-type: none;
+list-style-image: none;
+margin: 0.5em 0 0 0;
+}
+
+
+
+/* Additional STX workaround classes */
+.stx table p /* stupid STX table workaround */
+{
+margin: 0;
+padding: 0;
+}
+.stx table /* stupid STX table workaround */
+{
+border: 1px solid #436EAE ! important;
+}
+.stx table td {
+border-bottom: 1px solid #436EAE;
+}
+
+.reviewHistory {
+display: inline;
+font-size: 110% !important;
+color: Black;
+}
+
+.comment {
+background: #eef3f5;
+border: 1px dashed #436EAE;
+padding: 0.25em 1em 0.5em 1em;
+margin-bottom: 1em;
+}
+
+.comment h1,
+.comment h2,
+.comment h3,
+.comment h4,
+.comment h5,
+.comment h6 {
+border-bottom: 1px dashed #76797c;
+font-weight: normal;
+}
+
+.comment h3 a {
+background-image: url(../../discussionitem_icon.gif);
+background-repeat: no-repeat;
+padding-left: 18px;
+margin-left: -1px;
+margin-bottom: 1px;
+min-height: 1.6em;
+height: auto;
+line-height: 1.6em;
+}
+
+.commentBody {
+margin: 0 1em 1em 1em;
+}
+
+.spacer {
+margin: 1em;
+}
+
+.contentViews {
+background-color: transparent;
+padding-left: 1em;
+line-height: normal;
+margin: 0;
+list-style: none;
+border: 1px solid #436EAE;
+border-top-width: 0px;
+border-left-width: 0px;
+border-right-width: 0px;
+}
+.contentViews li {
+display: inline;
+padding-top: 0.5em;
+}
+.contentViews li a {
+background-color: transparent;
+border: 1px solid #436EAE;
+border-style: solid;
+color: #000000;
+height: auto;
+margin-right: 0.5em;
+padding: 0em 1em;
+line-height: normal;
+text-decoration: none;
+text-transform: none;
+z-index: 1;
+}
+.contentViews .selected a {
+background-color: #94ACD0;
+border-bottom: #94ACD0 1px solid;
+color: #000000;
+}
+.contentViews li a:hover {
+background-color: #94ACD0;
+color: #000000;
+}
+
+
+.configlet .contentViews {
+font-size: 90%;
+}
+
+/*
+** begin ECMAScript Content Action Menus
+*/
+
+.contentActions {
+background-color: #94ACD0;
+border-left: 1px solid #436EAE;
+border-right: 1px solid #436EAE;
+color: #000000;
+text-align: right;
+text-transform: none;
+padding: 0 0 0 1em;
+z-index: 2;
+position:relative;
+height: 1.6em;
+}
+
+.contentActions ul,
+.contentActions li {
+margin: 0;
+list-style: none;
+list-style-image: none;
+display: inline;
+color: Black;
+text-align: left;
+}
+
+.contentActions ul {
+line-height: 1.6em;
+padding: 0;
+margin: 0;
+}
+.contentActions li {
+float: right;
+z-index: 4;
+border-left: 1px solid #436EAE;
+line-height: 1.6em;
+}
+
+.actionItems li {
+background-image: none;
+}
+
+.contentActions a {
+text-decoration: none;
+color: #000000;
+padding: 0 0.5em;
+}
+
+.actionMenu {
+/* The spec says we can't put this on an element with a float (although
+Opera is the only one that cares) and we need it in order to catch
+the position:absolute bubbling up */
+
+position: relative;
+margin: 0;
+padding: 0;
+}
+
+.actionMenu .actionMenuHeader {
+margin: 0;
+padding: 0;
+font-weight: normal;
+cursor: pointer;
+}
+
+.actionMenu.activated .actionMenuHeader {
+position: relative;
+z-index: 10;
+}
+
+.actionMenu .actionMenuHeader a {
+display: block;
+}
+
+.actionMenu.activated .actionMenuHeader a,
+.actionMenu.deactivated .actionMenuHeader a {
+background-image: url(../../arrowDownAlternative.gif);
+background-repeat: no-repeat;
+background-position: 95% 60%;
+padding: 0 1.6em 0 0.5em !important;
+cursor: pointer;
+}
+
+.actionMenuDisabled {
+padding: 0 0.5em 0 0.5em !important;
+cursor: pointer;
+}
+
+.actionMenu .actionMenuContent {
+display: none;
+z-index: 5;
+position: absolute;
+top: 1.6em;
+right: -1px;
+height: auto;
+padding: 0;
+margin: 0;
+cursor: pointer;
+}
+
+.actionMenu .actionMenuContent ul {
+display: block;
+background: #94ACD0;
+border: 1px #436EAE;
+border-style: none solid solid solid;
+margin: -2px 0 0 0;
+padding: 0;
+cursor: pointer;
+}
+
+.actionMenu.activated .actionMenuContent {
+display: block !important;
+}
+.actionMenu.activated .actionMenuContent {
+/* this one will be ignored by IE, it is here to fix the cut-off error in
+Firefox */
+display: table !important;
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+.actionMenu.deactivated .actionMenuContent {
+display: none !important;
+}
+
+.actionMenu .actionMenuContent li {
+float: none;
+background-color: transparent;
+display: inline;
+padding: 0;
+margin: 0;
+border: 0;
+}
+
+.actionMenu .actionMenuContent li a {
+display: block;
+white-space: nowrap;
+padding: 0 0.5em;
+margin: 0.2em 0;
+}
+
+.actionMenu .actionMenuContent .selected {
+display: block;
+white-space: nowrap;
+padding: 0 0.5em;
+margin: 0.2em 0;
+}
+
+.actionMenu .actionMenuContent li a:hover {
+background-color: #436EAE;
+color: White;
+}
+
+.actionMenu .actionMenuContent .actionSeparator a {
+margin-top: 0.2em;
+padding-top: 0.2em;
+border-top: 1px solid #436EAE;
+}
+
+.actionMenu .actionMenuContent .actionSeparator div.currentDefaultPage {
+margin-top: 0.2em;
+padding: 0.2em 0.5em 0em 0.5em;
+white-space: nowrap;
+border-top: 1px solid #436EAE;
+}
+
+.actionMenu .actionMenuContent .actionSeparator div.actionLabel {
+margin-top: 0.2em;
+padding: 0.2em 0.5em 0em 0.5em;
+white-space: nowrap;
+border-top: 1px solid #436EAE;
+background-color: #436EAE;
+color: #94ACD0;
+cursor: default;
+}
+
+
+.contentBatchAction {
+float: left !important;
+padding: 0 0.5em;
+border-top: 1px solid #436EAE;
+border-right: 1px solid #436EAE;
+border-left: none !important;
+border-collapse: collapse;
+position: relative;
+top: -1px;
+margin-left: -0.5em !important;
+}
+
+#objectMenu.actionMenu .actionMenuContent li {
+display: block;
+}
+
+#objectMenu.actionMenu .actionMenuContent li,
+#objectMenu.actionMenu .actionMenuContent li a:hover {
+background-position: 3px 50%;
+margin-left: 0;
+}
+
+#objectMenu.actionMenu .actionMenuContent li a {
+padding-left: 22px;
+}
+
+.actionMenuSelected {
+display: block;
+cursor: default;
+background-image: url(../../bullet_icon.gif);
+background-repeat: no-repeat;
+background-position: 0% 3px;
+padding-left: 16px !important;
+}
+
+#templateMenu li a {
+padding-left: 16px;
+}
+
+
+/*
+** end ECMAScript Content Action Menus
+*/
+
+
+/* Collapsible elements */
+
+dl.collapsible {
+border: 1px solid #436EAE !important;
+margin: 1em 0 0 0;
+padding: 0;
+}
+
+dl.collapsible dt.collapsibleHeader {
+display: block;
+float: left;
+background: White;
+line-height: 1.2em;
+vertical-align: middle;
+font-size: 90%;
+position: relative;
+top: -0.6em;
+width: auto;
+margin: 0 0 -0.6em 1em;
+padding: 0 0.5em;
+}
+
+dl.collapsible dd.collapsibleContent {
+margin: 0;
+padding: 0 1em;
+clear: left;
+}
+
+/* for IE the following isn't needed, that's why the css2 selector is used */
+dl.collapsible dd.collapsibleContent > dl {
+margin: 0;
+padding: 0;
+}
+
+dl.expandedInlineCollapsible dt.collapsibleHeader,
+dl.expandedBlockCollapsible dt.collapsibleHeader {
+padding: 0 6px 0 22px;
+background: White url(treeExpanded.gif) no-repeat 6px 50%;
+cursor: pointer;
+}
+
+dl.collapsedBlockCollapsible {
+border: none !important;
+height: 1em;
+width: auto;
+}
+
+dl.collapsedBlockCollapsible dt.collapsibleHeader {
+float: none;
+position: static;
+margin: 0;
+padding: 0 0 0 22px;
+line-height: 1em;
+background: transparent url(treeCollapsed.gif) no-repeat 6px 50%;
+cursor: pointer;
+}
+
+dl.collapsedInlineCollapsible dd.collapsibleContent,
+dl.collapsedBlockCollapsible dd.collapsibleContent {
+display: none;
+}
+
+dl.collapsedInlineCollapsible {
+border: none !important;
+height: 1em;
+width: auto;
+display: inline;
+}
+
+dl.collapsedInlineCollapsible dt.collapsibleHeader {
+position: static;
+float: none;
+margin: 0;
+padding: 0 0 0 22px;
+line-height: 1em;
+background: transparent url(treeCollapsed.gif) no-repeat 6px 50%;
+cursor: pointer;
+display: inline;
+}
+
+.configlet .documentEditable {
+padding: 0em !important;
+}
+
+.documentEditable .documentContent {
+border: 1px solid #436EAE;
+padding: 0;
+}
+
+.label {
+font-weight: bold;
+display: inline;
+padding-right: 0.5em;
+}
+
+.optionsToggle {
+border: 1px solid #436EAE;
+color: Black;
+background-color: #94ACD0;
+font-weight: normal !important;
+font-size: 85%;
+}
+
+.portalNotLoggedIn {} /* Used on all descriptions relevant to those not logged in */
+
+#portal-column-content fieldset > * input:focus,
+#portal-column-content fieldset > * textarea:focus {
+border-color: #ffa500;
+border-width: 1px;
+}
+
+.visualOverflow {
+overflow: auto;
+margin: 0 0 1em 0;
+}
+
+.visualOverflow pre,
+.visualOverflow table,
+.visualOverflow img {
+margin: 0;
+}
+
+.visualFontSizeCorrection { /* Correction for WYSIWYG editors */
+font-size: 75%;
+background: transparent;
+background-image: none;
+}
+
+
+/* for highlighting of search terms */
+
+.highlightedSearchTerm {
+background-color: #feff82;
+}
+
+/* for greying out inherited roles */
+
+.noInheritedRoles {
+color: #a0a0a0;
+}
+
+/* for highlighting current items, like the language or today in the calendar */
+
+.currentItem {
+border-collapse: collapse;
+border: 2px solid #ffa500;
+padding: 1px;
+}
+
+/* Styles to make the editing widgets look more like their view counterparts */
+
+#archetypes-fieldname-title input {
+font-size: 160%;
+font-family: "Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif;
+font-weight: normal;
+width: 99%;
+}
+
+#archetypes-fieldname-description textarea {
+font: 100% "Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif;
+font-weight: bold;
+}
+
+/* for draggable elements */
+
+tr.dragging td {
+background-color: yellow;
+}
+
+.draggingHook {
+cursor: move;
+}
+
+.notDraggable {
+}
+
+/*  */
+}
+

@@ -1,0 +1,376 @@
+
+/* - mobile.css - */
+@media handheld {
+/*
+** Plone style sheet for mobile/handheld browsers. Mainly tested on Opera
+** for mobile devices, feedback/donations to help support other platforms
+** are welcome.
+**
+** Style sheet documentation can be found at http://plone.org/documentation
+**
+** Feel free to use whole or parts of this for your own designs, but give credit
+** where credit is due.
+**
+*/
+
+/*  (do not remove this :) */
+/*  (not this either :) */
+
+body {
+    font: 69% "Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif;
+    background-color: White;
+    color: Black;
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    font-size: 100%;
+}
+
+
+a {
+    color: #436976;
+    background-color: transparent;
+}
+img {
+    border: none;
+    vertical-align: middle;
+}
+p {
+    margin: 0.5em 0em 1em 0em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    border-bottom: 1px solid #436EAE;
+}
+
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    color: Black ! important; 
+}
+
+h1 {
+    font-size: 160%;
+}
+
+h2 {
+    font-size: 150%;
+}
+
+h3 {
+    font-size: 140%;
+    border-bottom: none;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 120%;
+    border-bottom: none;
+    font-weight: bold;
+}
+
+h5 {
+    font-size: 100%;
+    border-bottom: none;
+    font-weight: bold;
+}
+
+h6 {
+    font-size: 85%;
+    border-bottom: none;
+    font-weight: bold;
+}
+
+label {
+    font-weight: bold;
+}
+
+/* searchbox style and positioning */
+#portal-searchbox {
+    font-size: 10px;
+}
+
+
+#portal-globalnav {
+    /* Navigational Plone Tabs(tm), implemented by customizing the a and li tags */
+    background-color: transparent;
+    border-collapse: collapse;
+    padding: 0;
+    padding-left: 0.2em;
+    list-style: none;
+    margin: 0;
+    height: auto;
+    line-height: normal;
+}
+#portal-globalnav li {
+    display: inline;
+}
+#portal-globalnav li a {
+    /* The normal, unselected tabs. They are all links */
+    background-color: transparent;
+    border-color: #436EAE;
+    border-width: 1px; 
+    border-style: solid solid none solid;
+    color: #436976;
+    height: auto;
+    margin-right: 0.1em;
+    padding: 0em 0.2em;
+    text-decoration: none;
+    text-transform: none;
+}
+#portal-globalnav li.selected a {
+    /* The selected tab. There's only one of this */
+    background-color: #94ACD0;
+    border: 1px solid #436EAE;
+    border-bottom: #94ACD0 1px solid;
+    color: #436976;
+}
+
+#portal-personaltools {
+    /* Bar with personalized menu (user preferences, favorites etc) */
+    background-color: #94ACD0;
+    border-top-color: #436EAE;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-bottom-color: #436EAE;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    color: Black;
+    margin: 0;
+    text-align: right;
+    text-transform: none;
+    list-style: none;
+}
+
+#portal-personaltools li {
+    margin-left: 0.2em;
+    display: inline;
+}
+#portal-personaltools li a {
+    text-decoration: none;
+    color: #436976;
+}
+.visualCaseSensitive {
+    text-transform: none;
+}
+#portal-breadcrumbs {
+    /* The path bar, including breadcrumbs and add to favorites */
+    border-bottom-color: #436EAE;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+    text-transform: none;
+}
+
+.contentViews {
+    background-color: transparent;
+    border-collapse: collapse;
+    padding-left: 0.1em;
+    line-height: normal;
+    margin: 0.2em 0 0 0;
+    /* white-space: nowrap; */
+    list-style: none;
+    border: 1px solid #436EAE;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+}
+.contentViews li {
+    display: inline;
+}
+.contentViews li a {
+    background-color: transparent;
+    border: 1px solid #436EAE;
+    border-style: solid;
+    color: #000000;
+    height: auto;
+    margin-right: 0.2em;
+    padding: 0;
+    line-height: normal;
+    text-decoration: none;
+    text-transform: none;
+    z-index: 1;
+}
+.contentViews .selected a {
+    background-color: #94ACD0;
+    border-bottom: #94ACD0 1px solid;
+    color: #000000;
+}
+
+/*
+** begin ECMAScript Content Action Menus
+*/
+
+.contentActions {
+    border-collapse: collapse;
+    background-color: #94ACD0;
+    border-left: 1px solid #436EAE;
+    border-right: 1px solid #436EAE;
+    color: #000000;
+    text-align: right;
+    text-transform: none;
+    padding: 0 0 0 0.2em;
+    z-index: 2;
+    height: 1.2em;
+}
+
+.contentActions ul,
+.contentActions li {
+    margin: 0;
+    list-style: none;
+    list-style-image: none;
+    display: inline;
+    color: Black;
+    text-align: left;
+}
+
+.contentActions ul {
+    padding: 0;
+    margin: 0;
+}
+.contentActions li {
+    float: right;
+    background-image: url(../../arrowDownAlternative.gif);
+    background-repeat: no-repeat;
+    background-position: center right;
+    z-index: 4;
+    border-left: 1px solid #436EAE;
+    padding: 0 0 0 0.2em;
+    margin: 0 0.2em 0 0;
+}
+
+.actionItems li {
+    background-image: none;
+}
+
+.contentActions a {
+    text-decoration: none;
+    color: #000000;
+    padding: 0 0.6em 0 0;
+}
+
+.contentActions .actionMenu .actionMenuContent {
+    display: none;
+    z-index: 5;
+    position: absolute;
+    top: 0;
+    right: -1px;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+.contentActions .actionMenu .actionMenuContent ul {
+    display: block;
+    background: #94ACD0;
+    border: 1px #436EAE;
+    border-style: none solid solid solid;
+    margin: 0.2em 0 0 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.actionMenu .actionMenuContent li {
+    font-size: 10px !important;
+    float: none;
+    background: transparent;
+    display: inline;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.actionMenu .actionMenuContent li a {
+    display: block;
+    white-space: nowrap;
+    padding: 0 0.2em;
+    margin: 0.2em 0;
+}
+
+.actionMenu .actionMenuContent .actionSeparator a {
+    margin-top: 0.2em;
+    padding-top: 0.2em;
+    border-top: 1px solid #436EAE;
+}
+
+/*
+** end ECMAScript Content Action Menus
+*/
+
+.documentEditable .documentContent {
+    border: 1px solid #436EAE;
+    padding: 0.5em;
+}
+
+/* .system-message and #error-handling are reST error indicators */
+.portalMessage,
+.portalWarningMessage,
+.portalStopMessage,
+.system-message,
+#error-handling {
+    background-color: #ffce7b;
+    border: 1px solid #ffa500;
+    color: Black;
+    font-size: 85%;
+    font-weight: bold;
+    margin: 2em 0em 1em 0em;
+    padding: 0.5em 1em;
+    vertical-align: middle;
+}
+.portalMessage a,
+.portalWarningMessage a,
+.portalStopMessage a {
+    color: Black;
+}
+.documentDescription {
+    /* The summary text describing the document */
+    font-weight: bold;
+    display: block;
+    margin: 0.5em 0em;
+}
+.documentByLine {
+    text-align: right;
+    font-size: 85%;
+    clear: both;
+    font-weight: normal;
+    color: #76797c;
+}
+
+#portal-footer {
+    background-color: #94ACD0;
+    border-top: 1px solid #436EAE;
+    border-bottom: 1px solid #436EAE;
+    float: none;
+    margin: 2em 0em 1em 0em;
+    padding: 0.5em 0em 1em 0em;
+    text-align: center;
+}
+
+.hiddenStructure,
+#portal-logo,
+#portal-searchbox,
+#portal-siteactions,
+#portal-column-one,
+#portal-column-two,
+.addFavorite,
+.documentActions,
+#portal-colophon,
+.netscape4
+ {
+    display: none;
+}
+
+
+/*  */
+
+}
+

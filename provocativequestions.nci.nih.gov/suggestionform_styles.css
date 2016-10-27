@@ -1,0 +1,28 @@
+/* Styles for SuggestionForm product */
+
+#suggestionContainer {
+  margin:0;
+  padding:0;
+  width:98%;
+}
+
+.suggestionSF a{
+  font-size:100%;
+}
+
+#rankingsTable {
+ margin:0;
+ padding:0;
+ border:none;
+}
+
+#rankingsTable tr td {
+ vertical-align:top;
+}
+
+.rankBreakdownSF {
+  margin-top:10px;
+	font-size:75%;
+	padding:5px;
+	background-color:#E5E5E5;
+}
